@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">1601 Assignment Quiz</string>
+    <string name="yes_button_label">Yes</string>
+    <string name="no_button_label">No</string>
+
+    <string name="previous_button_label">Previous</string>
+    <string name="submit_button_label">Submit</string>
+    <string name="next_button_label">Next</string>
+
+    <string name="display_score_toast">%1$s You scored %2$d out of %3$d%4$s</string>
+    <string name="prefix_pass">Nice!</string>
+    <string name="prefix_fail">Good try!</string>
+    <string name="punctuation_pass">!</string>
+    <string name="punctuation_fail">.</string>
+
+
+    <string name="question1">
+        1. Which of the following statements are NOT true regarding Android Studio?
+        [Android Studio 2.3 is the latest stable release]
+        Android Studio is built specifically for Android development|
+        Android Studio 2.3 is the latest stable release|
+        Android Studio is an IDE (Integrated Development Environment)|
+        Android Studio is built on IntelliJ software|
+        Android Studio can be run on Windows, Mac, and Linux|
+    </string>
+    <string name="question2">
+        2. Which of the following languages are markup languages?
+        [XML]
+        XML|
+        Java|
+        Kotlin|
+        Python|
+        Scratch|
+    </string>
+    <string name="question3">
+        3. Which categories of products can Android apps be developed for?
+        [All of the above]
+        Phones and Tablets|
+        Watches|
+        TVs|
+        Car Systems|
+        All of the above|
+    </string>
+    <string name="question4">
+        4. When coding an Android program, in which location should you put the source of a
+        paragraph of text that is displayed within the app?
+        [As a resource inside the strings.xml file]
+        In its own Java class|
+        In its own Enum|
+        In the MainActivity class as a constant|
+        As a Gradle Script inside the build.gradle file|
+        As a resource inside the strings.xml file|
+    </string>
+    <string name="question5">
+        5. Which of the following demonstrate good naming conventions for XML and Java file names?
+        [activity_main.xml and MainActivity.java]
+        MainActivity.xml and MainActivity.java|
+        activity_main.xml and activity_main.java|
+        main_activity.xml and main_activity.java|
+        activity_main.xml and MainActivity.java|
+        main_activity.xml and MainActivity.java|
+    </string>
+    <string name="question6">
+        6. Which of the following is the latest Android API level as of January 2019?
+        [28]
+        1|
+        8|
+        20|
+        28|
+        34|
+    </string>
+    <string name="question7">
+        7. Which methods in the activity lifecycle are automatically called when the device screen
+        is rotated?
+        [onPause, onStop, onDestroy, onCreate, onStart, onResume]
+        No methods are automatically called|
+        onCreate|
+        onPause, onResume|
+        onPause, onStop, onStart, onResume|
+        onPause, onStop, onDestroy, onCreate, onStart, onResume|
+    </string>
+    <string name="question8">
+        8. What is the difference between an argument and a parameter?
+        [Parameters are part of a method definition, while arguments are the actual instances
+        that are passed into the method]
+        They mean the same thing|
+        Arguments only for the main method, parameters are for all other methods|
+        Parameters are part of a method definition, while arguments are the actual instances
+        that are passed into the method|
+        Arguments are part of a method definition, while parameters are the actual instances
+        that are passed into the method|
+        Arguments are arrays, while parameters are single objects|
+    </string>
+    <string name="question9">
+        9. Which of the following statements are NOT true regarding resource IDs?
+        [All resources need IDs attached to them in order to be referenced]
+        Resource IDs can be added to XML tags explicitly|
+        All resources need IDs attached to them in order to be referenced|
+        IDs can be accessed from Java programs using R.id|
+        XML resource files can reference other XML resources by ID|
+        Spaces and some symbols are not allowed in a resource ID|
+    </string>
+    <string name="question10">
+        10. What should be the first line of code in a onCreate method in MainActivity?
+        (Assume savedInstanceState is an object of the Bundle class)
+        [super.onCreate(savedInstanceState);]
+        It does not matter|
+        onCreate();|
+        onCreate(savedInstanceState);|
+        super.onCreate();|
+        super.onCreate(savedInstanceState);|
+    </string>
+</resources>
